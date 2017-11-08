@@ -64,13 +64,9 @@ request.get(target)
       });
     });
 
+
     return promise.then(function() {
-      winston.info(bodybuffer);
-      fs.writeFile("app/report-simple.txt", bodybuffer, function(err){
-        if (err) {
-          winston.error("unable to write report!");
-        }
-      });
+      fs.writeFileSync("app/report-simple.txt", bodybuffer);
       winston.info("processing COMPLETE", {module: colors.red("index.js")});
       process.exit(1);
     });

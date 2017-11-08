@@ -1,0 +1,28 @@
+{
+  "site_name": "UTSA-WWWROOT",
+  "site_url": "//localhost:3000",
+  "contentTypes": [
+    {
+      "contentType": "Empty",
+      "count": 1,
+      "pages": [
+        {
+          "asset-name": "index",
+          "asset-title": "index",
+          "asset-link": "site://UTSA-WWWROOT/index"
+        }
+      ]
+    },
+    {
+      "contentType": "Empty-2",
+      "count": 1,
+      "pages": [
+        {
+          "asset-name": "index",
+          "asset-title": "index",
+          "asset-link": "site://UTSA-WWWROOT/index"
+        }
+      ]
+    }
+  ]
+}
