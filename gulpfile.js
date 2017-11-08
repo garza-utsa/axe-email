@@ -14,7 +14,7 @@ var src = {
 };
 
 gulp.task('email', function () {
-  return gulp.src('./app/test.html')
+  return gulp.src('./app/report-simple.txt')
     .pipe(email({
       subject: 'We are UTSA! - TESTING',
       to: [

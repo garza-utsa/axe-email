@@ -1,0 +1,66 @@
+[
+  {
+    "description": "Ensures each HTML document contains a non-empty <title> element",
+    "help": "Documents must have <title> element to aid in navigation",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/2.5/document-title?application=webdriverjs",
+    "id": "document-title",
+    "impact": "serious",
+    "nodes": [
+      {
+        "all": [],
+        "any": [
+          {
+            "data": null,
+            "id": "doc-has-title",
+            "impact": "serious",
+            "message": "Document does not have a non-empty <title> element",
+            "relatedNodes": []
+          }
+        ],
+        "html": "<html>",
+        "impact": "serious",
+        "none": [],
+        "target": [
+          "html"
+        ]
+      }
+    ],
+    "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag242"
+    ]
+  },
+  {
+    "description": "Ensures every HTML document has a lang attribute",
+    "help": "<html> element must have a lang attribute",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/2.5/html-has-lang?application=webdriverjs",
+    "id": "html-has-lang",
+    "impact": "serious",
+    "nodes": [
+      {
+        "all": [],
+        "any": [
+          {
+            "data": null,
+            "id": "has-lang",
+            "impact": "serious",
+            "message": "The <html> element does not have a lang attribute",
+            "relatedNodes": []
+          }
+        ],
+        "html": "<html>",
+        "impact": "serious",
+        "none": [],
+        "target": [
+          "html"
+        ]
+      }
+    ],
+    "tags": [
+      "cat.language",
+      "wcag2a",
+      "wcag311"
+    ]
+  }
+]
