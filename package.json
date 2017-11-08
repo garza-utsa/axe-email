@@ -1,0 +1,28 @@
+{
+  "name": "axe-email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John David Garza <johngarza@utsa.edu>",
+  "license": "ISC",
+  "dependencies": {
+    "axe-core": "^2.5.0",
+    "axe-webdriverjs": "^1.1.5",
+    "browser-sync": "^2.18.13",
+    "commander": "^2.11.0",
+    "gulp": "^3.9.1",
+    "gulp-email": "0.0.7",
+    "gulp-if": "^2.0.2",
+    "gulp-mail": "^0.2.0",
+    "juice": "^4.2.2",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.1",
+    "nconf": "^0.9.1",
+    "selenium-webdriver": "^3.6.0",
+    "superagent": "^3.8.0",
+    "winston": "^2.4.0"
+  }
+}
