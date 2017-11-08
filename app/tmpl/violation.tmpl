@@ -1,0 +1,53 @@
+<div>
+  <h3><%= v.id %> - <%= v.impact %></h3>
+  <p><%= v.description %></p>
+  <p><a href="<%= v.helpUrl %>"><%= v.help %></a></p>
+  <ul>
+    <% _.forEach(v.nodes, function(node) { %>
+      <li><% if (v.target) { %><%= v.target %><% } %>
+
+        <% _.forEach(node.any, function (a) { %>
+          <p>
+            <%= a.id %> : <%= a.message %>
+          </p>
+          <% if (a.data) { %>
+          <p><pre>
+            <%= JSON.stringify(a.data, null, 2) %>
+          </pre></p>
+          <% } %>
+          <% if (a.relatedNodes.length > 0) { %>
+          <ul>
+          <% _.forEach(a.relatedNodes, function (n) { %>
+            <li><%= n.target %></li>
+          <% }); %>
+          </ul>
+          <% } %>
+        <% }); %>
+
+        <% _.forEach(node.all, function (a) { %>
+          <p>
+            <%= a.id %> : <%= a.message %>
+          </p>
+          <% if (a.data) { %>
+          <p><pre>
+            <%= JSON.stringify(a.data, null, 2) %>
+          </pre></p>
+          <% } %>
+          <% if (a.relatedNodes.length > 0) { %>
+          <ul>
+          <% _.forEach(a.relatedNodes, function (n) { %>
+            <li><%= n.target %></li>
+          <% }); %>
+          </ul>
+          <% } %>
+        <% }); %>
+
+        <p><% _.forEach(node.target, function (target) { %>
+            <%= target %> <br/>
+          <% }); %>
+        </p>
+      </li>
+    <% }); %>
+  </ul>
+  <p>tags: <% _.forEach(v.tags, function (t) { %><%= t %> <% }); %></p>
+</div>

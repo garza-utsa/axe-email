@@ -6,6 +6,7 @@ var commander = require("commander");
 var colors = require('colors/safe');
 var request = require('superagent');
 var axeHandler = require("./lib/axe-handler");
+var util = require("./lib/util");
 var fs = require('fs');
 
 //var updateAsset = require("./lib/update-asset");
@@ -22,12 +23,12 @@ var mode = "test";
 var test = nconf.get("test")
 var ws = nconf.get("ws")
 var promise = Promise.resolve(null);
-
+var violationTmpl = "app/tmpl/violation.tmpl";
 winston.info("processing START");
 
 var target = test['sitemap'];
 
-var bodybuffer = "";
+var bodybuffer = "<html><head><title>violation report</title></head><body>";
 
 request.get(target)
   .set('accept', 'json')
@@ -51,22 +52,24 @@ request.get(target)
           if (axeResults) {
             var violations = axeResults['violations'];
             var violationsStr = JSON.stringify(violations, null, 2);
+            fs.writeFileSync("violation-example.json", violationsStr);
 
+            bodybuffer = bodybuffer + "<h3>" + pageLink;
+            bodybuffer = bodybuffer + " - " + pageTitle + "- ";
+            bodybuffer = bodybuffer + violations.length + " violations found</h3>";
             winston.info("got results for url " + url, logOpts);
-            winston.info(violations.length + " violations found.", logOpts);
-            bodybuffer = bodybuffer + "page: " + pageName + "\n";
-            bodybuffer = bodybuffer + "url: " + url + "\n";
-            bodybuffer = bodybuffer + "violations:\n";
-            bodybuffer = bodybuffer + violationsStr;
-            bodybuffer = bodybuffer + "\n\n";
+            violations.map(function (v) {
+              bodybuffer = bodybuffer + util.generateFromTemplate({"v": v, "url": pageLink}, violationTmpl);
+            });
+            bodybuffer = bodybuffer + "<hr/>";
           }
         });
       });
     });
-
+    bodybuffer = bodybuffer + "</body></html>";
 
     return promise.then(function() {
-      fs.writeFileSync("app/report-simple.txt", bodybuffer);
+      fs.writeFileSync("app/report-simple.html", bodybuffer);
       winston.info("processing COMPLETE", {module: colors.red("index.js")});
       process.exit(1);
     });

@@ -1,66 +1,207 @@
 [
   {
-    "description": "Ensures each HTML document contains a non-empty <title> element",
-    "help": "Documents must have <title> element to aid in navigation",
-    "helpUrl": "https://dequeuniversity.com/rules/axe/2.5/document-title?application=webdriverjs",
-    "id": "document-title",
+    "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+    "help": "Elements must have sufficient color contrast",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/2.5/color-contrast?application=webdriverjs",
+    "id": "color-contrast",
     "impact": "serious",
     "nodes": [
       {
         "all": [],
         "any": [
           {
-            "data": null,
-            "id": "doc-has-title",
+            "data": {
+              "bgColor": "#ffffff",
+              "contrastRatio": 3.37,
+              "fgColor": "#f15a22",
+              "fontSize": "11.4pt",
+              "fontWeight": "bold",
+              "missingData": null
+            },
+            "id": "color-contrast",
             "impact": "serious",
-            "message": "Document does not have a non-empty <title> element",
-            "relatedNodes": []
+            "message": "Element has insufficient color contrast of 3.37 (foreground color: #f15a22, background color: #ffffff, font size: 11.4pt, font weight: bold)",
+            "relatedNodes": [
+              {
+                "html": "<body>",
+                "target": [
+                  "html > body"
+                ]
+              }
+            ]
           }
         ],
-        "html": "<html>",
+        "html": "<a href=\"main-campus.html\">            Main Campus    \n    </a>",
         "impact": "serious",
         "none": [],
         "target": [
-          "html"
+          "li:nth-child(1) > a[href$=\"main-campus.html\"]"
+        ]
+      },
+      {
+        "all": [],
+        "any": [
+          {
+            "data": {
+              "bgColor": "#ffffff",
+              "contrastRatio": 3.37,
+              "fgColor": "#f15a22",
+              "fontSize": "11.4pt",
+              "fontWeight": "bold",
+              "missingData": null
+            },
+            "id": "color-contrast",
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 3.37 (foreground color: #f15a22, background color: #ffffff, font size: 11.4pt, font weight: bold)",
+            "relatedNodes": [
+              {
+                "html": "<body>",
+                "target": [
+                  "html > body"
+                ]
+              }
+            ]
+          }
+        ],
+        "html": "<a href=\"downtown-campus.html\">            Downtown Campus    \n    </a>",
+        "impact": "serious",
+        "none": [],
+        "target": [
+          "li:nth-child(2) > a[href$=\"downtown-campus.html\"]"
+        ]
+      },
+      {
+        "all": [],
+        "any": [
+          {
+            "data": {
+              "bgColor": "#ffffff",
+              "contrastRatio": 3.37,
+              "fgColor": "#f15a22",
+              "fontSize": "11.4pt",
+              "fontWeight": "bold",
+              "missingData": null
+            },
+            "id": "color-contrast",
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 3.37 (foreground color: #f15a22, background color: #ffffff, font size: 11.4pt, font weight: bold)",
+            "relatedNodes": [
+              {
+                "html": "<body>",
+                "target": [
+                  "html > body"
+                ]
+              }
+            ]
+          }
+        ],
+        "html": "<a href=\"hemisfair-campus.html\">            Hemisfair Campus    \n    </a>",
+        "impact": "serious",
+        "none": [],
+        "target": [
+          "li:nth-child(3) > a[href$=\"hemisfair-campus.html\"]"
+        ]
+      },
+      {
+        "all": [],
+        "any": [
+          {
+            "data": {
+              "bgColor": "#f1f1f1",
+              "contrastRatio": 2.98,
+              "fgColor": "#f15a22",
+              "fontSize": "18.6pt",
+              "fontWeight": "bold",
+              "missingData": null
+            },
+            "id": "color-contrast",
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 2.98 (foreground color: #f15a22, background color: #f1f1f1, font size: 18.6pt, font weight: bold)",
+            "relatedNodes": [
+              {
+                "html": "<section class=\"grayBoxContainer\" id=\"askRowdy\" style=\"margin-top:30px\">",
+                "target": [
+                  "#askRowdy"
+                ]
+              }
+            ]
+          }
+        ],
+        "html": "<h2 style=\"color:#f15a22;font-weight:700;\">Still have a question? Ask Rowdy</h2>",
+        "impact": "serious",
+        "none": [],
+        "target": [
+          ".container.text-xs-center > h2"
         ]
       }
     ],
     "tags": [
-      "cat.text-alternatives",
-      "wcag2a",
-      "wcag242"
+      "cat.color",
+      "wcag2aa",
+      "wcag143"
     ]
   },
   {
-    "description": "Ensures every HTML document has a lang attribute",
-    "help": "<html> element must have a lang attribute",
-    "helpUrl": "https://dequeuniversity.com/rules/axe/2.5/html-has-lang?application=webdriverjs",
-    "id": "html-has-lang",
-    "impact": "serious",
+    "description": "Ensures every form element has a label",
+    "help": "Form elements must have labels",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/2.5/label?application=webdriverjs",
+    "id": "label",
+    "impact": "critical",
     "nodes": [
       {
         "all": [],
         "any": [
           {
             "data": null,
-            "id": "has-lang",
+            "id": "aria-label",
             "impact": "serious",
-            "message": "The <html> element does not have a lang attribute",
+            "message": "aria-label attribute does not exist or is empty",
+            "relatedNodes": []
+          },
+          {
+            "data": null,
+            "id": "aria-labelledby",
+            "impact": "serious",
+            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible",
+            "relatedNodes": []
+          },
+          {
+            "data": null,
+            "id": "implicit-label",
+            "impact": "critical",
+            "message": "Form element does not have an implicit (wrapped) <label>",
+            "relatedNodes": []
+          },
+          {
+            "data": null,
+            "id": "explicit-label",
+            "impact": "critical",
+            "message": "Form element does not have an explicit <label>",
+            "relatedNodes": []
+          },
+          {
+            "data": null,
+            "id": "non-empty-title",
+            "impact": "serious",
+            "message": "Element has no title attribute or the title attribute is empty",
             "relatedNodes": []
           }
         ],
-        "html": "<html>",
-        "impact": "serious",
+        "html": "<input class=\"rowdyQuestion\" maxlength=\"250\" name=\"question\" onblur=\"if(this.value==='') this.value='Ask Rowdy...';\" onfocus=\"if (this.value==this.defaultValue) this.value='';\" type=\"text\" value=\"Ask Rowdy...\">",
+        "impact": "critical",
         "none": [],
         "target": [
-          "html"
+          "#Form > input[type=\"text\"][name=\"question\"]"
         ]
       }
     ],
     "tags": [
-      "cat.language",
+      "cat.forms",
       "wcag2a",
-      "wcag311"
+      "wcag332",
+      "wcag131",
+      "section508",
+      "section508.22.n"
     ]
   }
 ]
