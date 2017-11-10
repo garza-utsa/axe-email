@@ -39,15 +39,19 @@ request.post(searchURL).send(searchInfo).set('accept', 'json')
     } else {
       var searchResponse = res.body;
       var matches = searchResponse['matches'];
+      winston.info("sitemaps found: " + matches.length, logOpts);
       if (matches.length > 0) {
         matches.map(function (sitemap) {
-          promise = siteHandler(ws, sitemap).then(function(siteResults) {
-              bodybuffer = bodybuffer + siteResults;
+          promise = promise.then(function() {
+            return siteHandler(ws, sitemap);
+          }).then(function(siteResults) {
+              bodybuffer = bodybuffer + siteResults + '<hr/>';
           });
         });
       }
     }
     return promise.then(function() {
+      bodybuffer = bodybuffer + '</body></html>';
       fs.writeFileSync("app/site-reporter.html", bodybuffer);
       winston.info("process COMPLETE", logOpts);
       process.exit(1);
