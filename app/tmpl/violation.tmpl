@@ -1,6 +1,6 @@
 <div>
   <h3><%= v.id %> - <%= v.impact %></h3>
-  <p><%= v.description %></p>
+  <p><%= v.description.replace('<', '&lt;').replace('>', '&gt;') %></p>
   <p><a href="<%= v.helpUrl %>"><%= v.help %></a></p>
   <ul>
     <% _.forEach(v.nodes, function(node) { %>
@@ -10,11 +10,6 @@
           <p>
             <%= a.id %> : <%= a.message %>
           </p>
-          <% if (a.data) { %>
-          <p><pre>
-            <%= JSON.stringify(a.data, null, 2) %>
-          </pre></p>
-          <% } %>
           <% if (a.relatedNodes.length > 0) { %>
           <ul>
           <% _.forEach(a.relatedNodes, function (n) { %>
@@ -28,11 +23,6 @@
           <p>
             <%= a.id %> : <%= a.message %>
           </p>
-          <% if (a.data) { %>
-          <p><pre>
-            <%= JSON.stringify(a.data, null, 2) %>
-          </pre></p>
-          <% } %>
           <% if (a.relatedNodes.length > 0) { %>
           <ul>
           <% _.forEach(a.relatedNodes, function (n) { %>

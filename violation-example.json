@@ -14,13 +14,13 @@
               "bgColor": "#ffffff",
               "contrastRatio": 3.37,
               "fgColor": "#f15a22",
-              "fontSize": "11.4pt",
-              "fontWeight": "bold",
+              "fontSize": "9.0pt",
+              "fontWeight": "normal",
               "missingData": null
             },
             "id": "color-contrast",
             "impact": "serious",
-            "message": "Element has insufficient color contrast of 3.37 (foreground color: #f15a22, background color: #ffffff, font size: 11.4pt, font weight: bold)",
+            "message": "Element has insufficient color contrast of 3.37 (foreground color: #f15a22, background color: #ffffff, font size: 9.0pt, font weight: normal)",
             "relatedNodes": [
               {
                 "html": "<body>",
@@ -31,11 +31,11 @@
             ]
           }
         ],
-        "html": "<a href=\"../glance/index.html\">            Fast Facts    \n    </a>",
+        "html": "<a href=\"../index.html\">            Office of the President\n    </a>",
         "impact": "serious",
         "none": [],
         "target": [
-          "html > body > section:nth-child(4) > .container > div:nth-child(2) > div:nth-child(1) > ul > li:nth-child(1) > a"
+          ".breadcrumbs.pull-left > a:nth-child(1)"
         ]
       },
       {
@@ -46,13 +46,13 @@
               "bgColor": "#ffffff",
               "contrastRatio": 3.37,
               "fgColor": "#f15a22",
-              "fontSize": "11.4pt",
-              "fontWeight": "bold",
+              "fontSize": "9.0pt",
+              "fontWeight": "normal",
               "missingData": null
             },
             "id": "color-contrast",
             "impact": "serious",
-            "message": "Element has insufficient color contrast of 3.37 (foreground color: #f15a22, background color: #ffffff, font size: 11.4pt, font weight: bold)",
+            "message": "Element has insufficient color contrast of 3.37 (foreground color: #f15a22, background color: #ffffff, font size: 9.0pt, font weight: normal)",
             "relatedNodes": [
               {
                 "html": "<body>",
@@ -63,11 +63,11 @@
             ]
           }
         ],
-        "html": "<a href=\"../glance/marks-of-excellence.html\">            Marks of Excellence    \n    </a>",
+        "html": "<a href=\"thought-leadership.html\">            Thought Leadership\n    </a>",
         "impact": "serious",
         "none": [],
         "target": [
-          "li:nth-child(2) > a[href$=\"marks-of-excellence.html\"]"
+          ".breadcrumbs.pull-left > a[href$=\"thought-leadership.html\"]"
         ]
       },
       {
@@ -75,136 +75,8 @@
         "any": [
           {
             "data": {
-              "bgColor": "#ffffff",
-              "contrastRatio": 3.37,
-              "fgColor": "#f15a22",
-              "fontSize": "11.4pt",
-              "fontWeight": "bold",
-              "missingData": null
-            },
-            "id": "color-contrast",
-            "impact": "serious",
-            "message": "Element has insufficient color contrast of 3.37 (foreground color: #f15a22, background color: #ffffff, font size: 11.4pt, font weight: bold)",
-            "relatedNodes": [
-              {
-                "html": "<body>",
-                "target": [
-                  "html > body"
-                ]
-              }
-            ]
-          }
-        ],
-        "html": "<a href=\"../leadership/index.html\">            Leadership    \n    </a>",
-        "impact": "serious",
-        "none": [],
-        "target": [
-          "html > body > section:nth-child(4) > .container > div:nth-child(2) > div:nth-child(1) > ul > li:nth-child(3) > a"
-        ]
-      },
-      {
-        "all": [],
-        "any": [
-          {
-            "data": {
-              "bgColor": "#ffffff",
-              "contrastRatio": 3.37,
-              "fgColor": "#f15a22",
-              "fontSize": "11.4pt",
-              "fontWeight": "bold",
-              "missingData": null
-            },
-            "id": "color-contrast",
-            "impact": "serious",
-            "message": "Element has insufficient color contrast of 3.37 (foreground color: #f15a22, background color: #ffffff, font size: 11.4pt, font weight: bold)",
-            "relatedNodes": [
-              {
-                "html": "<body>",
-                "target": [
-                  "html > body"
-                ]
-              }
-            ]
-          }
-        ],
-        "html": "<a href=\"index.html\">            History    \n    </a>",
-        "impact": "serious",
-        "none": [],
-        "target": [
-          "html > body > section:nth-child(4) > .container > div:nth-child(2) > div:nth-child(1) > ul > li:nth-child(4) > a"
-        ]
-      },
-      {
-        "all": [],
-        "any": [
-          {
-            "data": {
-              "bgColor": "#ffffff",
-              "contrastRatio": 3.37,
-              "fgColor": "#f15a22",
-              "fontSize": "11.4pt",
-              "fontWeight": "bold",
-              "missingData": null
-            },
-            "id": "color-contrast",
-            "impact": "serious",
-            "message": "Element has insufficient color contrast of 3.37 (foreground color: #f15a22, background color: #ffffff, font size: 11.4pt, font weight: bold)",
-            "relatedNodes": [
-              {
-                "html": "<body>",
-                "target": [
-                  "html > body"
-                ]
-              }
-            ]
-          }
-        ],
-        "html": "<a href=\"../../visit/index.html\">              Visit Our Campuses\n    </a>",
-        "impact": "serious",
-        "none": [],
-        "target": [
-          "html > body > section:nth-child(4) > .container > div:nth-child(2) > div:nth-child(1) > ul > li:nth-child(5) > a"
-        ]
-      },
-      {
-        "all": [],
-        "any": [
-          {
-            "data": {
-              "bgColor": "#ffffff",
-              "contrastRatio": 3.37,
-              "fgColor": "#f15a22",
-              "fontSize": "11.4pt",
-              "fontWeight": "bold",
-              "missingData": null
-            },
-            "id": "color-contrast",
-            "impact": "serious",
-            "message": "Element has insufficient color contrast of 3.37 (foreground color: #f15a22, background color: #ffffff, font size: 11.4pt, font weight: bold)",
-            "relatedNodes": [
-              {
-                "html": "<body>",
-                "target": [
-                  "html > body"
-                ]
-              }
-            ]
-          }
-        ],
-        "html": "<a href=\"http://www.utsa.edu/blueprint\">            A Vision for UTSA    \n    </a>",
-        "impact": "serious",
-        "none": [],
-        "target": [
-          "li:nth-child(6) > a[href$=\"blueprint\"]"
-        ]
-      },
-      {
-        "all": [],
-        "any": [
-          {
-            "data": {
-              "bgColor": "#f1f1f1",
-              "contrastRatio": 2.98,
+              "bgColor": "#e4e4e4",
+              "contrastRatio": 2.65,
               "fgColor": "#f15a22",
               "fontSize": "18.6pt",
               "fontWeight": "bold",
@@ -212,22 +84,244 @@
             },
             "id": "color-contrast",
             "impact": "serious",
-            "message": "Element has insufficient color contrast of 2.98 (foreground color: #f15a22, background color: #f1f1f1, font size: 18.6pt, font weight: bold)",
+            "message": "Element has insufficient color contrast of 2.65 (foreground color: #f15a22, background color: #e4e4e4, font size: 18.6pt, font weight: bold)",
             "relatedNodes": [
               {
-                "html": "<section class=\"grayBoxContainer\" id=\"askRowdy\" style=\"margin-top:30px\">",
+                "html": "<h2 class=\"homebg\">Thought Leadership</h2>",
                 "target": [
-                  "#askRowdy"
+                  ".blogRoll.categoryRoll > h2.homebg"
                 ]
               }
             ]
           }
         ],
-        "html": "<h2 style=\"color:#f15a22;font-weight:700;\">Still have a question? Ask Rowdy</h2>",
+        "html": "<h2 class=\"homebg\">Thought Leadership</h2>",
         "impact": "serious",
         "none": [],
         "target": [
-          ".container.text-xs-center > h2"
+          ".blogRoll.categoryRoll > h2.homebg"
+        ]
+      },
+      {
+        "all": [],
+        "any": [
+          {
+            "data": {
+              "bgColor": "#e4e4e4",
+              "contrastRatio": 2.65,
+              "fgColor": "#f15a22",
+              "fontSize": "18.6pt",
+              "fontWeight": "bold",
+              "missingData": null
+            },
+            "id": "color-contrast",
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 2.65 (foreground color: #f15a22, background color: #e4e4e4, font size: 18.6pt, font weight: bold)",
+            "relatedNodes": [
+              {
+                "html": "<h2 class=\"homebg\">Categories</h2>",
+                "target": [
+                  "#site-content > .row > div:nth-child(2) > h2.homebg"
+                ]
+              }
+            ]
+          }
+        ],
+        "html": "<h2 class=\"homebg\">Categories</h2>",
+        "impact": "serious",
+        "none": [],
+        "target": [
+          "#site-content > .row > div:nth-child(2) > h2.homebg"
+        ]
+      },
+      {
+        "all": [],
+        "any": [
+          {
+            "data": {
+              "bgColor": "#f58359",
+              "contrastRatio": 2.55,
+              "fgColor": "#ffffff",
+              "fontSize": "11.4pt",
+              "fontWeight": "normal",
+              "missingData": null
+            },
+            "id": "color-contrast",
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 2.55 (foreground color: #ffffff, background color: #f58359, font size: 11.4pt, font weight: normal)",
+            "relatedNodes": [
+              {
+                "html": "<span>\n                    <a href=\"in-the-news.html\">\n                In The News\n            </a>\n            </span>",
+                "target": [
+                  "#site-content > .row > div:nth-child(2) > .muted.blogCategory > ul > li:nth-child(1) > span"
+                ]
+              },
+              {
+                "html": "<body>",
+                "target": [
+                  "html > body"
+                ]
+              }
+            ]
+          }
+        ],
+        "html": "<a href=\"in-the-news.html\">\n                In The News\n            </a>",
+        "impact": "serious",
+        "none": [],
+        "target": [
+          "span > a[href$=\"in-the-news.html\"]"
+        ]
+      },
+      {
+        "all": [],
+        "any": [
+          {
+            "data": {
+              "bgColor": "#f58359",
+              "contrastRatio": 2.55,
+              "fgColor": "#ffffff",
+              "fontSize": "11.4pt",
+              "fontWeight": "normal",
+              "missingData": null
+            },
+            "id": "color-contrast",
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 2.55 (foreground color: #ffffff, background color: #f58359, font size: 11.4pt, font weight: normal)",
+            "relatedNodes": [
+              {
+                "html": "<span>\n                    <a href=\"message-from-the-president.html\">\n                Message from the President\n            </a>\n            </span>",
+                "target": [
+                  "#site-content > .row > div:nth-child(2) > .muted.blogCategory > ul > li:nth-child(2) > span"
+                ]
+              },
+              {
+                "html": "<body>",
+                "target": [
+                  "html > body"
+                ]
+              }
+            ]
+          }
+        ],
+        "html": "<a href=\"message-from-the-president.html\">\n                Message from the President\n            </a>",
+        "impact": "serious",
+        "none": [],
+        "target": [
+          "#site-content > .row > div:nth-child(2) > .muted.blogCategory > ul > li:nth-child(2) > span > a"
+        ]
+      },
+      {
+        "all": [],
+        "any": [
+          {
+            "data": {
+              "bgColor": "#f58359",
+              "contrastRatio": 2.55,
+              "fgColor": "#ffffff",
+              "fontSize": "11.4pt",
+              "fontWeight": "normal",
+              "missingData": null
+            },
+            "id": "color-contrast",
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 2.55 (foreground color: #ffffff, background color: #f58359, font size: 11.4pt, font weight: normal)",
+            "relatedNodes": [
+              {
+                "html": "<span>\n                    <a href=\"presentations.html\">\n                Presentations\n            </a>\n            </span>",
+                "target": [
+                  "#site-content > .row > div:nth-child(2) > .muted.blogCategory > ul > li:nth-child(3) > span"
+                ]
+              },
+              {
+                "html": "<body>",
+                "target": [
+                  "html > body"
+                ]
+              }
+            ]
+          }
+        ],
+        "html": "<a href=\"presentations.html\">\n                Presentations\n            </a>",
+        "impact": "serious",
+        "none": [],
+        "target": [
+          "span > a[href$=\"presentations.html\"]"
+        ]
+      },
+      {
+        "all": [],
+        "any": [
+          {
+            "data": {
+              "bgColor": "#f58359",
+              "contrastRatio": 2.55,
+              "fgColor": "#ffffff",
+              "fontSize": "11.4pt",
+              "fontWeight": "normal",
+              "missingData": null
+            },
+            "id": "color-contrast",
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 2.55 (foreground color: #ffffff, background color: #f58359, font size: 11.4pt, font weight: normal)",
+            "relatedNodes": [
+              {
+                "html": "<span>\n                    <a href=\"publications.html\">\n                Publications\n            </a>\n            </span>",
+                "target": [
+                  "#site-content > .row > div:nth-child(2) > .muted.blogCategory > ul > li:nth-child(4) > span"
+                ]
+              },
+              {
+                "html": "<body>",
+                "target": [
+                  "html > body"
+                ]
+              }
+            ]
+          }
+        ],
+        "html": "<a href=\"publications.html\">\n                Publications\n            </a>",
+        "impact": "serious",
+        "none": [],
+        "target": [
+          "span > a[href$=\"publications.html\"]"
+        ]
+      },
+      {
+        "all": [],
+        "any": [
+          {
+            "data": {
+              "bgColor": "#f58359",
+              "contrastRatio": 2.55,
+              "fgColor": "#ffffff",
+              "fontSize": "11.4pt",
+              "fontWeight": "normal",
+              "missingData": null
+            },
+            "id": "color-contrast",
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 2.55 (foreground color: #ffffff, background color: #f58359, font size: 11.4pt, font weight: normal)",
+            "relatedNodes": [
+              {
+                "html": "<span>\n                    <a href=\"thought-leadership.html\">\n                Thought Leadership\n            </a>\n            </span>",
+                "target": [
+                  "#site-content > .row > div:nth-child(2) > .muted.blogCategory > ul > li:nth-child(5) > span"
+                ]
+              },
+              {
+                "html": "<body>",
+                "target": [
+                  "html > body"
+                ]
+              }
+            ]
+          }
+        ],
+        "html": "<a href=\"thought-leadership.html\">\n                Thought Leadership\n            </a>",
+        "impact": "serious",
+        "none": [],
+        "target": [
+          "#site-content > .row > div:nth-child(2) > .muted.blogCategory > ul > li:nth-child(5) > span > a[href$=\"thought-leadership.html\"]"
         ]
       }
     ],
@@ -238,296 +332,54 @@
     ]
   },
   {
-    "description": "Ensures <img> elements have alternate text or a role of none or presentation",
-    "help": "Images must have alternate text",
-    "helpUrl": "https://dequeuniversity.com/rules/axe/2.5/image-alt?application=webdriverjs",
-    "id": "image-alt",
-    "impact": "critical",
+    "description": "Ensures every HTML document has a lang attribute",
+    "help": "<html> element must have a lang attribute",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/2.5/html-has-lang?application=webdriverjs",
+    "id": "html-has-lang",
+    "impact": "serious",
     "nodes": [
       {
         "all": [],
         "any": [
           {
             "data": null,
-            "id": "has-alt",
-            "impact": "critical",
-            "message": "Element does not have an alt attribute",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "aria-label",
+            "id": "has-lang",
             "impact": "serious",
-            "message": "aria-label attribute does not exist or is empty",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "aria-labelledby",
-            "impact": "serious",
-            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "non-empty-title",
-            "impact": "serious",
-            "message": "Element has no title attribute or the title attribute is empty",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "role-presentation",
-            "impact": "minor",
-            "message": "Element's default semantics were not overridden with role=\"presentation\"",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "role-none",
-            "impact": "minor",
-            "message": "Element's default semantics were not overridden with role=\"none\"",
+            "message": "The <html> element does not have a lang attribute",
             "relatedNodes": []
           }
         ],
-        "html": "<img class=\"pull-right\" src=\"1970s.jpg\" style=\"padding-left: 10px; padding-bottom: 10px; padding-top: 10px; width: 350px;\">",
-        "impact": "critical",
+        "html": "<html class=\"wf-ffmetawebpro-i4-active wf-ffmetawebpro-n7-active wf-ffmetawebpro-n4-active wf-ffmetawebpro-i7-active wf-active\">",
+        "impact": "serious",
         "none": [],
         "target": [
-          "div > img[src$=\"1970s.jpg\"]"
-        ]
-      },
-      {
-        "all": [],
-        "any": [
-          {
-            "data": null,
-            "id": "has-alt",
-            "impact": "critical",
-            "message": "Element does not have an alt attribute",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "aria-label",
-            "impact": "serious",
-            "message": "aria-label attribute does not exist or is empty",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "aria-labelledby",
-            "impact": "serious",
-            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "non-empty-title",
-            "impact": "serious",
-            "message": "Element has no title attribute or the title attribute is empty",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "role-presentation",
-            "impact": "minor",
-            "message": "Element's default semantics were not overridden with role=\"presentation\"",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "role-none",
-            "impact": "minor",
-            "message": "Element's default semantics were not overridden with role=\"none\"",
-            "relatedNodes": []
-          }
-        ],
-        "html": "<img class=\"pull-right\" src=\"1980s.jpg\" style=\"padding-left: 10px; padding-bottom: 10px; padding-top: 10px; width: 350px;\">",
-        "impact": "critical",
-        "none": [],
-        "target": [
-          "div > img[src$=\"1980s.jpg\"]"
-        ]
-      },
-      {
-        "all": [],
-        "any": [
-          {
-            "data": null,
-            "id": "has-alt",
-            "impact": "critical",
-            "message": "Element does not have an alt attribute",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "aria-label",
-            "impact": "serious",
-            "message": "aria-label attribute does not exist or is empty",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "aria-labelledby",
-            "impact": "serious",
-            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "non-empty-title",
-            "impact": "serious",
-            "message": "Element has no title attribute or the title attribute is empty",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "role-presentation",
-            "impact": "minor",
-            "message": "Element's default semantics were not overridden with role=\"presentation\"",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "role-none",
-            "impact": "minor",
-            "message": "Element's default semantics were not overridden with role=\"none\"",
-            "relatedNodes": []
-          }
-        ],
-        "html": "<img class=\"pull-right\" src=\"1990s.jpg\" style=\"padding-left: 10px; padding-bottom: 10px; padding-top: 10px; width: 350px;\">",
-        "impact": "critical",
-        "none": [],
-        "target": [
-          "div > img[src$=\"1990s.jpg\"]"
-        ]
-      },
-      {
-        "all": [],
-        "any": [
-          {
-            "data": null,
-            "id": "has-alt",
-            "impact": "critical",
-            "message": "Element does not have an alt attribute",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "aria-label",
-            "impact": "serious",
-            "message": "aria-label attribute does not exist or is empty",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "aria-labelledby",
-            "impact": "serious",
-            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "non-empty-title",
-            "impact": "serious",
-            "message": "Element has no title attribute or the title attribute is empty",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "role-presentation",
-            "impact": "minor",
-            "message": "Element's default semantics were not overridden with role=\"presentation\"",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "role-none",
-            "impact": "minor",
-            "message": "Element's default semantics were not overridden with role=\"none\"",
-            "relatedNodes": []
-          }
-        ],
-        "html": "<img class=\"pull-right\" src=\"2000s.jpg\" style=\"padding-left: 10px; padding-bottom: 10px; padding-top: 10px; width: 350px;\">",
-        "impact": "critical",
-        "none": [],
-        "target": [
-          "div > img[src$=\"2000s.jpg\"]"
-        ]
-      },
-      {
-        "all": [],
-        "any": [
-          {
-            "data": null,
-            "id": "has-alt",
-            "impact": "critical",
-            "message": "Element does not have an alt attribute",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "aria-label",
-            "impact": "serious",
-            "message": "aria-label attribute does not exist or is empty",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "aria-labelledby",
-            "impact": "serious",
-            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "non-empty-title",
-            "impact": "serious",
-            "message": "Element has no title attribute or the title attribute is empty",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "role-presentation",
-            "impact": "minor",
-            "message": "Element's default semantics were not overridden with role=\"presentation\"",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "role-none",
-            "impact": "minor",
-            "message": "Element's default semantics were not overridden with role=\"none\"",
-            "relatedNodes": []
-          }
-        ],
-        "html": "<img class=\"pull-right\" src=\"2010s.jpg\" style=\"padding-left: 10px; padding-bottom: 10px; padding-top: 10px; width: 350px;\">",
-        "impact": "critical",
-        "none": [],
-        "target": [
-          "div > img[src$=\"2010s.jpg\"]"
+          "html"
         ]
       }
     ],
     "tags": [
-      "cat.text-alternatives",
+      "cat.language",
       "wcag2a",
-      "wcag111",
-      "section508",
-      "section508.22.a"
+      "wcag311"
     ]
   },
   {
-    "description": "Ensures every form element has a label",
-    "help": "Form elements must have labels",
-    "helpUrl": "https://dequeuniversity.com/rules/axe/2.5/label?application=webdriverjs",
-    "id": "label",
-    "impact": "critical",
+    "description": "Ensures links have discernible text",
+    "help": "Links must have discernible text",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/2.5/link-name?application=webdriverjs",
+    "id": "link-name",
+    "impact": "serious",
     "nodes": [
       {
         "all": [],
         "any": [
+          {
+            "data": null,
+            "id": "has-visible-text",
+            "impact": "minor",
+            "message": "Element does not have text that is visible to screen readers",
+            "relatedNodes": []
+          },
           {
             "data": null,
             "id": "aria-label",
@@ -544,41 +396,259 @@
           },
           {
             "data": null,
-            "id": "implicit-label",
-            "impact": "critical",
-            "message": "Form element does not have an implicit (wrapped) <label>",
+            "id": "role-presentation",
+            "impact": "minor",
+            "message": "Element's default semantics were not overridden with role=\"presentation\"",
             "relatedNodes": []
           },
           {
             "data": null,
-            "id": "explicit-label",
-            "impact": "critical",
-            "message": "Form element does not have an explicit <label>",
-            "relatedNodes": []
-          },
-          {
-            "data": null,
-            "id": "non-empty-title",
-            "impact": "serious",
-            "message": "Element has no title attribute or the title attribute is empty",
+            "id": "role-none",
+            "impact": "minor",
+            "message": "Element's default semantics were not overridden with role=\"none\"",
             "relatedNodes": []
           }
         ],
-        "html": "<input class=\"rowdyQuestion\" maxlength=\"250\" name=\"question\" onblur=\"if(this.value==='') this.value='Ask Rowdy...';\" onfocus=\"if (this.value==this.defaultValue) this.value='';\" type=\"text\" value=\"Ask Rowdy...\">",
-        "impact": "critical",
-        "none": [],
+        "html": "<a ga-event-action=\"https://www.facebook.com/utsa\" ga-event-category=\"globalFooterClick\" ga-event-label=\"socialNav\" ga-on=\"click\" href=\"https://www.facebook.com/utsa\">\n\t\t\t\t\t\t\t<i aria-hidden=\"true\" class=\"fa fa-facebook utsa-social-circle\">&nbsp;</i>\n\t\t\t\t\t\t</a>",
+        "impact": "serious",
+        "none": [
+          {
+            "data": null,
+            "id": "focusable-no-name",
+            "impact": "serious",
+            "message": "Element is in tab order and does not have accessible text",
+            "relatedNodes": []
+          }
+        ],
         "target": [
-          "#Form > input[type=\"text\"][name=\"question\"]"
+          "#socialNav > a[href$=\"utsa\"]:nth-child(1)"
+        ]
+      },
+      {
+        "all": [],
+        "any": [
+          {
+            "data": null,
+            "id": "has-visible-text",
+            "impact": "minor",
+            "message": "Element does not have text that is visible to screen readers",
+            "relatedNodes": []
+          },
+          {
+            "data": null,
+            "id": "aria-label",
+            "impact": "serious",
+            "message": "aria-label attribute does not exist or is empty",
+            "relatedNodes": []
+          },
+          {
+            "data": null,
+            "id": "aria-labelledby",
+            "impact": "serious",
+            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible",
+            "relatedNodes": []
+          },
+          {
+            "data": null,
+            "id": "role-presentation",
+            "impact": "minor",
+            "message": "Element's default semantics were not overridden with role=\"presentation\"",
+            "relatedNodes": []
+          },
+          {
+            "data": null,
+            "id": "role-none",
+            "impact": "minor",
+            "message": "Element's default semantics were not overridden with role=\"none\"",
+            "relatedNodes": []
+          }
+        ],
+        "html": "<a ga-event-action=\"https://twitter.com/utsa\" ga-event-category=\"globalFooterClick\" ga-event-label=\"socialNav\" ga-on=\"click\" href=\"https://twitter.com/utsa\">\n\t\t\t\t\t\t\t<i aria-hidden=\"true\" class=\"fa fa-twitter utsa-social-circle\">&nbsp;</i>\n\t\t\t\t\t\t</a>",
+        "impact": "serious",
+        "none": [
+          {
+            "data": null,
+            "id": "focusable-no-name",
+            "impact": "serious",
+            "message": "Element is in tab order and does not have accessible text",
+            "relatedNodes": []
+          }
+        ],
+        "target": [
+          "#socialNav > a[href$=\"utsa\"]:nth-child(2)"
+        ]
+      },
+      {
+        "all": [],
+        "any": [
+          {
+            "data": null,
+            "id": "has-visible-text",
+            "impact": "minor",
+            "message": "Element does not have text that is visible to screen readers",
+            "relatedNodes": []
+          },
+          {
+            "data": null,
+            "id": "aria-label",
+            "impact": "serious",
+            "message": "aria-label attribute does not exist or is empty",
+            "relatedNodes": []
+          },
+          {
+            "data": null,
+            "id": "aria-labelledby",
+            "impact": "serious",
+            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible",
+            "relatedNodes": []
+          },
+          {
+            "data": null,
+            "id": "role-presentation",
+            "impact": "minor",
+            "message": "Element's default semantics were not overridden with role=\"presentation\"",
+            "relatedNodes": []
+          },
+          {
+            "data": null,
+            "id": "role-none",
+            "impact": "minor",
+            "message": "Element's default semantics were not overridden with role=\"none\"",
+            "relatedNodes": []
+          }
+        ],
+        "html": "<a ga-event-action=\"https://vimeo.com/utsa\" ga-event-category=\"globalFooterClick\" ga-event-label=\"socialNav\" ga-on=\"click\" href=\"https://vimeo.com/utsa\">\n\t\t\t\t\t\t\t<i aria-hidden=\"true\" class=\"fa fa-vimeo utsa-social-circle\">&nbsp;</i>\n\t\t\t\t\t\t</a>",
+        "impact": "serious",
+        "none": [
+          {
+            "data": null,
+            "id": "focusable-no-name",
+            "impact": "serious",
+            "message": "Element is in tab order and does not have accessible text",
+            "relatedNodes": []
+          }
+        ],
+        "target": [
+          "#socialNav > a[href$=\"utsa\"]:nth-child(3)"
+        ]
+      },
+      {
+        "all": [],
+        "any": [
+          {
+            "data": null,
+            "id": "has-visible-text",
+            "impact": "minor",
+            "message": "Element does not have text that is visible to screen readers",
+            "relatedNodes": []
+          },
+          {
+            "data": null,
+            "id": "aria-label",
+            "impact": "serious",
+            "message": "aria-label attribute does not exist or is empty",
+            "relatedNodes": []
+          },
+          {
+            "data": null,
+            "id": "aria-labelledby",
+            "impact": "serious",
+            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible",
+            "relatedNodes": []
+          },
+          {
+            "data": null,
+            "id": "role-presentation",
+            "impact": "minor",
+            "message": "Element's default semantics were not overridden with role=\"presentation\"",
+            "relatedNodes": []
+          },
+          {
+            "data": null,
+            "id": "role-none",
+            "impact": "minor",
+            "message": "Element's default semantics were not overridden with role=\"none\"",
+            "relatedNodes": []
+          }
+        ],
+        "html": "<a ga-event-action=\"http://www.linkedin.com/edu/the-university-of-texas-at-san-antonio-19521\" ga-event-category=\"globalFooterClick\" ga-event-label=\"socialNav\" ga-on=\"click\" href=\"http://www.linkedin.com/edu/the-university-of-texas-at-san-antonio-19521\">",
+        "impact": "serious",
+        "none": [
+          {
+            "data": null,
+            "id": "focusable-no-name",
+            "impact": "serious",
+            "message": "Element is in tab order and does not have accessible text",
+            "relatedNodes": []
+          }
+        ],
+        "target": [
+          "#socialNav > a:nth-child(4)"
+        ]
+      },
+      {
+        "all": [],
+        "any": [
+          {
+            "data": null,
+            "id": "has-visible-text",
+            "impact": "minor",
+            "message": "Element does not have text that is visible to screen readers",
+            "relatedNodes": []
+          },
+          {
+            "data": null,
+            "id": "aria-label",
+            "impact": "serious",
+            "message": "aria-label attribute does not exist or is empty",
+            "relatedNodes": []
+          },
+          {
+            "data": null,
+            "id": "aria-labelledby",
+            "impact": "serious",
+            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty or not visible",
+            "relatedNodes": []
+          },
+          {
+            "data": null,
+            "id": "role-presentation",
+            "impact": "minor",
+            "message": "Element's default semantics were not overridden with role=\"presentation\"",
+            "relatedNodes": []
+          },
+          {
+            "data": null,
+            "id": "role-none",
+            "impact": "minor",
+            "message": "Element's default semantics were not overridden with role=\"none\"",
+            "relatedNodes": []
+          }
+        ],
+        "html": "<a ga-event-action=\"https://instagram.com/utsa\" ga-event-category=\"globalFooterClick\" ga-event-label=\"socialNav\" ga-on=\"click\" href=\"https://instagram.com/utsa\">\n\t\t\t\t\t\t\t<i aria-hidden=\"true\" class=\"fa fa-instagram utsa-social-circle\">&nbsp;</i>\n\t\t\t\t\t\t</a>",
+        "impact": "serious",
+        "none": [
+          {
+            "data": null,
+            "id": "focusable-no-name",
+            "impact": "serious",
+            "message": "Element is in tab order and does not have accessible text",
+            "relatedNodes": []
+          }
+        ],
+        "target": [
+          "#socialNav > a[href$=\"utsa\"]:nth-child(5)"
         ]
       }
     ],
     "tags": [
-      "cat.forms",
+      "cat.name-role-value",
       "wcag2a",
-      "wcag332",
-      "wcag131",
+      "wcag111",
+      "wcag412",
+      "wcag244",
       "section508",
-      "section508.22.n"
+      "section508.22.a"
     ]
   }
 ]

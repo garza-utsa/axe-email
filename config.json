@@ -2,7 +2,7 @@
   "ws": {
     "username" : "admin",
     "password" : "admin",
-    "url" : "http://localhost:8080/api/v1/"
+    "ws_base_url" : "http://localhost:8080/api/v1/"
   },
   "test": {
     "sitemap": "http://localhost:3000/sitemap.json"

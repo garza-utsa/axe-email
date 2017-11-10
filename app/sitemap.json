@@ -1,185 +1,490 @@
 {
-  "site_name": "UTSA-WWWROOT",
-  "site_url": "//www.utsa.edu",
-  "contentTypes": [
-    {
-      "contentType": "Emergency Alert",
-      "count": 1,
-      "pages": [
-        {
-          "asset-name": "alert",
-          "asset-title": "alert",
-          "asset-link": "site://UTSA-WWWROOT/_cascade/base-assets/alert"
-        }
-      ]
-    },
-    {
-      "contentType": "Standard Page Wide",
-      "count": 3,
-      "pages": [
-        {
-          "asset-name": "searchresults",
-          "asset-title": "Search Results",
-          "asset-link": "site://UTSA-WWWROOT/search/searchresults"
-        },
-        {
-          "asset-name": "standard-wide",
-          "asset-title": "standard-wide",
-          "asset-link": "site://UTSA-WWWROOT/_cascade/base-assets/standard-wide"
-        },
-        {
-          "asset-name": "index",
-          "asset-title": "UTSA Summer",
-          "asset-link": "site://UTSA-WWWROOT/summer/index"
-        }
-      ]
-    },
-    {
-      "contentType": "Top-Level Page",
-      "count": 7,
-      "pages": [
-        {
-          "asset-name": "index",
-          "asset-title": "Visit",
-          "asset-link": "site://UTSA-WWWROOT/visit/index"
-        },
-        {
-          "asset-name": "index",
-          "asset-title": "Community",
-          "asset-link": "site://UTSA-WWWROOT/community/index"
-        },
-        {
-          "asset-name": "index",
-          "asset-title": "Campus Life",
-          "asset-link": "site://UTSA-WWWROOT/campuslife/index"
-        },
-        {
-          "asset-name": "top-level",
-          "asset-title": "top-level",
-          "asset-link": "site://UTSA-WWWROOT/_cascade/base-assets/top-level"
-        },
-        {
-          "asset-name": "index",
-          "asset-title": "Admissions",
-          "asset-link": "site://UTSA-WWWROOT/admissions/index"
-        },
-        {
-          "asset-name": "index",
-          "asset-title": "About",
-          "asset-link": "site://UTSA-WWWROOT/about/index"
-        },
-        {
-          "asset-name": "404",
-          "asset-title": "404 - Page Not Found",
-          "asset-link": "site://UTSA-WWWROOT/404"
-        }
-      ]
-    },
-    {
-      "contentType": "Top-Level Page - Navigation",
-      "count": 20,
-      "pages": [
-        {
-          "asset-name": "application",
-          "asset-title": "Visiting Students Application",
-          "asset-link": "site://UTSA-WWWROOT/summer/application"
-        },
-        {
-          "asset-name": "main-campus",
-          "asset-title": "Main Campus",
-          "asset-link": "site://UTSA-WWWROOT/visit/main-campus"
-        },
-        {
-          "asset-name": "downtown-campus",
-          "asset-title": "Downtown Campus",
-          "asset-link": "site://UTSA-WWWROOT/visit/downtown-campus"
-        },
-        {
-          "asset-name": "hemisfair-campus",
-          "asset-title": "Hemisfair Campus",
-          "asset-link": "site://UTSA-WWWROOT/visit/hemisfair-campus"
-        },
-        {
-          "asset-name": "ugrad-degree-programs",
-          "asset-title": "All Undergraduate Majors",
-          "asset-link": "site://UTSA-WWWROOT/academics/ugrad-degree-programs"
-        },
-        {
-          "asset-name": "grad-degree-programs",
-          "asset-title": "All Graduate Majors",
-          "asset-link": "site://UTSA-WWWROOT/academics/grad-degree-programs"
-        },
-        {
-          "asset-name": "certificates",
-          "asset-title": "All Certificate Programs",
-          "asset-link": "site://UTSA-WWWROOT/academics/certificates"
-        },
-        {
-          "asset-name": "index",
-          "asset-title": "Fast Facts",
-          "asset-link": "site://UTSA-WWWROOT/about/glance/index"
-        },
-        {
-          "asset-name": "marks-of-excellence",
-          "asset-title": "Marks of Excellence",
-          "asset-link": "site://UTSA-WWWROOT/about/glance/marks-of-excellence"
-        },
-        {
-          "asset-name": "index",
-          "asset-title": "Leadership",
-          "asset-link": "site://UTSA-WWWROOT/about/leadership/index"
-        },
-        {
-          "asset-name": "index-old",
-          "asset-title": "History",
-          "asset-link": "site://UTSA-WWWROOT/about/history/index-old"
-        },
-        {
-          "asset-name": "top-level-page-nav",
-          "asset-title": "top-level-page-nav",
-          "asset-link": "site://UTSA-WWWROOT/_cascade/base-assets/top-level-page-nav"
-        },
-        {
-          "asset-name": "current",
-          "asset-title": "Current UTSA Students",
-          "asset-link": "site://UTSA-WWWROOT/summer/current"
-        },
-        {
-          "asset-name": "visiting",
-          "asset-title": "Visiting Students and Professionals",
-          "asset-link": "site://UTSA-WWWROOT/summer/visiting"
-        },
-        {
-          "asset-name": "index",
-          "asset-title": "Policies &amp; Required Links",
-          "asset-link": "site://UTSA-WWWROOT/policies/index"
-        },
-        {
-          "asset-name": "privacy",
-          "asset-title": "Internet Privacy Policy",
-          "asset-link": "site://UTSA-WWWROOT/policies/privacy"
-        },
-        {
-          "asset-name": "reqlinks",
-          "asset-title": "Texas Links and Information",
-          "asset-link": "site://UTSA-WWWROOT/policies/reqlinks"
-        },
-        {
-          "asset-name": "breach-notice",
-          "asset-title": "Notice of Breach",
-          "asset-link": "site://UTSA-WWWROOT/policies/breach-notice"
-        },
-        {
-          "asset-name": "policies",
-          "asset-title": "Policies &amp; Required Links",
-          "asset-link": "site://UTSA-WWWROOT/policies/policies"
-        },
-        {
-          "asset-name": "index",
-          "asset-title": "History",
-          "asset-link": "site://UTSA-WWWROOT/about/history/index"
-        }
-      ]
-    }
-  ]
+	"site_name": "President-WWWROOT",
+	"site_url": "//new.utsa.edu/president/",
+	"contentTypesRoot": [{
+		"contentType": "site://UTSA-WWWROOT/Standard Page Wide",
+		"count": 0,
+		"pages": []
+	}, {
+		"contentType": "site://UTSA-WWWROOT/SITE/ROOT Site Page - Content",
+		"count": 1,
+		"pages": [{
+			"asset-name": "_content",
+			"asset-title": "Regular Simple Content Page",
+			"asset-link": "site://President-WWWROOT/_cascade/base-assets/_content"
+		}]
+	}, {
+		"contentType": "site://UTSA-WWWROOT/SITE/ROOT Site Page - Staff Profile Roll page",
+		"count": 0,
+		"pages": []
+	}, {
+		"contentType": "site://UTSA-WWWROOT/Top-Level Page",
+		"count": 0,
+		"pages": []
+	}, {
+		"contentType": "site://UTSA-WWWROOT/SITE/ROOT Site Page - Content Rows",
+		"count": 67,
+		"pages": [{
+			"asset-name": "contact-us",
+			"asset-title": "Task Force on Preventing Sexual Violence on Campus",
+			"asset-link": "site://President-WWWROOT/programs/task-force/contact-us"
+		}, {
+			"asset-name": "state-2012",
+			"asset-title": "October 2012",
+			"asset-link": "site://President-WWWROOT/biography/states/state-2012"
+		}, {
+			"asset-name": "state-2011",
+			"asset-title": "October 2011",
+			"asset-link": "site://President-WWWROOT/biography/states/state-2011"
+		}, {
+			"asset-name": "state-2016-2",
+			"asset-title": "October 2016",
+			"asset-link": "site://President-WWWROOT/biography/states/state-2016-2"
+		}, {
+			"asset-name": "state-2010",
+			"asset-title": "October 2010",
+			"asset-link": "site://President-WWWROOT/biography/states/state-2010"
+		}, {
+			"asset-name": "state-2009",
+			"asset-title": "October 2009",
+			"asset-link": "site://President-WWWROOT/biography/states/state-2009"
+		}, {
+			"asset-name": "message-2016-07",
+			"asset-title": "July 2016",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2016-07"
+		}, {
+			"asset-name": "message-2016-08",
+			"asset-title": "August 2016",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2016-08"
+		}, {
+			"asset-name": "message-2016-09",
+			"asset-title": "September 2016",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2016-09"
+		}, {
+			"asset-name": "message-2016-10",
+			"asset-title": "November 2016",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2016-10"
+		}, {
+			"asset-name": "message-2016-11",
+			"asset-title": "Thanksgiving 2016",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2016-11"
+		}, {
+			"asset-name": "message-2016-12",
+			"asset-title": "December 2016",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2016-12"
+		}, {
+			"asset-name": "index",
+			"asset-title": "Faculty Hiring Cluster",
+			"asset-link": "site://President-WWWROOT/programs/cluster-hiring/index"
+		}, {
+			"asset-name": "brain-health",
+			"asset-title": "Faculty Hiring Cluster",
+			"asset-link": "site://President-WWWROOT/programs/cluster-hiring/brain-health"
+		}, {
+			"asset-name": "brain-health-faculty",
+			"asset-title": "Faculty Hiring Cluster",
+			"asset-link": "site://President-WWWROOT/programs/cluster-hiring/brain-health-faculty"
+		}, {
+			"asset-name": "cyber",
+			"asset-title": "Faculty Hiring Cluster",
+			"asset-link": "site://President-WWWROOT/programs/cluster-hiring/cyber"
+		}, {
+			"asset-name": "cyber-faculty",
+			"asset-title": "Faculty Hiring Cluster",
+			"asset-link": "site://President-WWWROOT/programs/cluster-hiring/cyber-faculty"
+		}, {
+			"asset-name": "index",
+			"asset-title": "Programs",
+			"asset-link": "site://President-WWWROOT/programs/index"
+		}, {
+			"asset-name": "Resources",
+			"asset-title": "Task Force on Preventing Sexual Violence on Campus",
+			"asset-link": "site://President-WWWROOT/programs/task-force/Resources"
+		}, {
+			"asset-name": "HoweExcellenceAward",
+			"asset-title": "Howe Excellence Award",
+			"asset-link": "site://President-WWWROOT/programs/HoweExcellenceAward"
+		}, {
+			"asset-name": "application",
+			"asset-title": "Leadership Council Application",
+			"asset-link": "site://President-WWWROOT/programs/application"
+		}, {
+			"asset-name": "message-2016-06",
+			"asset-title": "June 2016",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2016-06"
+		}, {
+			"asset-name": "message",
+			"asset-title": "Message From The President",
+			"asset-link": "site://President-WWWROOT/biography/message"
+		}, {
+			"asset-name": "state",
+			"asset-title": "State of the University",
+			"asset-link": "site://President-WWWROOT/biography/state"
+		}, {
+			"asset-name": "index",
+			"asset-title": "Biography",
+			"asset-link": "site://President-WWWROOT/biography/index"
+		}, {
+			"asset-name": "contact",
+			"asset-title": "Contact",
+			"asset-link": "site://President-WWWROOT/contact"
+		}, {
+			"asset-name": "index",
+			"asset-title": "Office of the President",
+			"asset-link": "site://President-WWWROOT/index"
+		}, {
+			"asset-name": "_message",
+			"asset-title": "Message From The President - March 2016",
+			"asset-link": "site://President-WWWROOT/_cascade/base-assets/_message"
+		}, {
+			"asset-name": "message-2015-04",
+			"asset-title": "April 2015",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2015-04"
+		}, {
+			"asset-name": "message-2014-12",
+			"asset-title": "December 2014",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2014-12"
+		}, {
+			"asset-name": "message-2016-03",
+			"asset-title": "March 2016",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2016-03"
+		}, {
+			"asset-name": "message-2016-02",
+			"asset-title": "February 2016",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2016-02"
+		}, {
+			"asset-name": "_state",
+			"asset-title": "State of the University Address - 2016",
+			"asset-link": "site://President-WWWROOT/_cascade/base-assets/_state"
+		}, {
+			"asset-name": "state-2015",
+			"asset-title": "October 2015",
+			"asset-link": "site://President-WWWROOT/biography/states/state-2015"
+		}, {
+			"asset-name": "state-2014",
+			"asset-title": "October 2014",
+			"asset-link": "site://President-WWWROOT/biography/states/state-2014"
+		}, {
+			"asset-name": "state-2013",
+			"asset-title": "October 2013",
+			"asset-link": "site://President-WWWROOT/biography/states/state-2013"
+		}, {
+			"asset-name": "message-2016-01",
+			"asset-title": "January 2016",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2016-01"
+		}, {
+			"asset-name": "message-2015-11",
+			"asset-title": "November 2015",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2015-11"
+		}, {
+			"asset-name": "message-2015-10",
+			"asset-title": "October 2015",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2015-10"
+		}, {
+			"asset-name": "message-2015-09",
+			"asset-title": "September 2015",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2015-09"
+		}, {
+			"asset-name": "message-2015-08",
+			"asset-title": "August 2015",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2015-08"
+		}, {
+			"asset-name": "message-2015-12",
+			"asset-title": "December 2015",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2015-12"
+		}, {
+			"asset-name": "message-2015-07",
+			"asset-title": "July 2015",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2015-07"
+		}, {
+			"asset-name": "message-2016-04",
+			"asset-title": "April 2016",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2016-04"
+		}, {
+			"asset-name": "message-2016-05",
+			"asset-title": "May 2016",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2016-05"
+		}, {
+			"asset-name": "message-2015-06",
+			"asset-title": "June 2015",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2015-06"
+		}, {
+			"asset-name": "message-2015-03",
+			"asset-title": "March 2015",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2015-03"
+		}, {
+			"asset-name": "message-2015-02",
+			"asset-title": "February 2015",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2015-02"
+		}, {
+			"asset-name": "message-2015-01",
+			"asset-title": "January 2015",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2015-01"
+		}, {
+			"asset-name": "message-2014-11",
+			"asset-title": "November 2014",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2014-11"
+		}, {
+			"asset-name": "message-2014-10",
+			"asset-title": "October 2014",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2014-10"
+		}, {
+			"asset-name": "message-2014-09",
+			"asset-title": "September 2014",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2014-09"
+		}, {
+			"asset-name": "message-2014-08",
+			"asset-title": "August 2014",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2014-08"
+		}, {
+			"asset-name": "message-2014-07",
+			"asset-title": "July 2014",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2014-07"
+		}, {
+			"asset-name": "message-2014-06",
+			"asset-title": "June 2014",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2014-06"
+		}, {
+			"asset-name": "message-2014-05",
+			"asset-title": "May 2014",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2014-05"
+		}, {
+			"asset-name": "message-2014-04",
+			"asset-title": "April 2014",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2014-04"
+		}, {
+			"asset-name": "message-2014-03",
+			"asset-title": "March 2014",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2014-03"
+		}, {
+			"asset-name": "message-2014-02",
+			"asset-title": "February 2014",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2014-02"
+		}, {
+			"asset-name": "message-2014-01",
+			"asset-title": "January 2014",
+			"asset-link": "site://President-WWWROOT/biography/messages/message-2014-01"
+		}, {
+			"asset-name": "_content_rows",
+			"asset-title": "Content Rows Page",
+			"asset-link": "site://President-WWWROOT/_cascade/base-assets/_content_rows"
+		}, {
+			"asset-name": "state-2016",
+			"asset-title": "November 2016",
+			"asset-link": "site://President-WWWROOT/biography/states/state-2016"
+		}, {
+			"asset-name": "Charges",
+			"asset-title": "President&apos;s Task Force on Preventing Sexual Violence on Campus",
+			"asset-link": "site://President-WWWROOT/programs/task-force/Charges"
+		}, {
+			"asset-name": "index",
+			"asset-title": "Task Force on Preventing Sexual Violence on Campus ",
+			"asset-link": "site://President-WWWROOT/programs/task-force/index"
+		}, {
+			"asset-name": "Members",
+			"asset-title": "Task Force on Preventing Sexual Violence on Campus",
+			"asset-link": "site://President-WWWROOT/programs/task-force/Members"
+		}, {
+			"asset-name": "gallery",
+			"asset-title": "Photo Gallery",
+			"asset-link": "site://President-WWWROOT/biography/gallery"
+		}, {
+			"asset-name": "index",
+			"asset-title": "Biography",
+			"asset-link": "site://President-WWWROOT/initiatives/index"
+		}]
+	}, {
+		"contentType": "site://UTSA-WWWROOT/SITE/ROOT Site Page - Staff Roll",
+		"count": 3,
+		"pages": [{
+			"asset-name": "office",
+			"asset-title": "President&apos;s Office Staff",
+			"asset-link": "site://President-WWWROOT/staff/office"
+		}, {
+			"asset-name": "index",
+			"asset-title": "Executive Organization",
+			"asset-link": "site://President-WWWROOT/staff/index"
+		}, {
+			"asset-name": "_staff_listing",
+			"asset-title": "Staff",
+			"asset-link": "site://President-WWWROOT/_cascade/base-assets/_staff_listing"
+		}]
+	}, {
+		"contentType": "site://UTSA-WWWROOT/Emergency Alert",
+		"count": 0,
+		"pages": []
+	}, {
+		"contentType": "site://UTSA-WWWROOT/Top-Level Page - Navigation",
+		"count": 0,
+		"pages": []
+	}],
+	"contentTypesSite": [{
+		"contentType": "site://President-WWWROOT/Blog",
+		"count": 7,
+		"pages": [{
+			"asset-name": "_blog_post",
+			"asset-title": "Base Blog Post",
+			"asset-link": "site://President-WWWROOT/_cascade/base-assets/_blog_post"
+		}, {
+			"asset-name": "New Leadership UTSA",
+			"asset-title": "New leadership will help move UTSA to the next level",
+			"asset-link": "site://President-WWWROOT/2017/08/story/New Leadership UTSA"
+		}, {
+			"asset-name": "Convo Remarks",
+			"asset-title": "2017 UTSA Convocation ",
+			"asset-link": "site://President-WWWROOT/2017/08/story/Convo Remarks"
+		}, {
+			"asset-name": "Message from the President - Aug 21, 2017",
+			"asset-title": "The excitement of the new academic year",
+			"asset-link": "site://President-WWWROOT/2017/08/story/Message from the President - Aug 21, 2017"
+		}, {
+			"asset-name": "Message from the President - July 25, 2017",
+			"asset-title": "A truly special honor and privilege",
+			"asset-link": "site://President-WWWROOT/2017/08/story/Message from the President - July 25, 2017"
+		}, {
+			"asset-name": "UTSA Welcomes Dr. Taylor Eighmy",
+			"asset-title": "UTSA welcomes Dr. Taylor Eighmy",
+			"asset-link": "site://President-WWWROOT/2017/08/story/UTSA Welcomes Dr. Taylor Eighmy"
+		}, {
+			"asset-name": "Aug 28 - Message from the President",
+			"asset-title": "Hurricane Harvey Updates",
+			"asset-link": "site://President-WWWROOT/2017/08/story/Aug 28 - Message from the President"
+		}]
+	}, {
+		"contentType": "site://President-WWWROOT/Blog Index",
+		"count": 26,
+		"pages": [{
+			"asset-name": "index",
+			"asset-title": "January",
+			"asset-link": "site://President-WWWROOT/_cascade/base-assets/YYYY/01/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "YYYY",
+			"asset-link": "site://President-WWWROOT/_cascade/base-assets/YYYY/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "January",
+			"asset-link": "site://President-WWWROOT/_cascade/base-assets/YYYY/02/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "January",
+			"asset-link": "site://President-WWWROOT/_cascade/base-assets/YYYY/03/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "January",
+			"asset-link": "site://President-WWWROOT/_cascade/base-assets/YYYY/04/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "January",
+			"asset-link": "site://President-WWWROOT/_cascade/base-assets/YYYY/05/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "January",
+			"asset-link": "site://President-WWWROOT/_cascade/base-assets/YYYY/06/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "January",
+			"asset-link": "site://President-WWWROOT/_cascade/base-assets/YYYY/07/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "January",
+			"asset-link": "site://President-WWWROOT/_cascade/base-assets/YYYY/08/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "January",
+			"asset-link": "site://President-WWWROOT/_cascade/base-assets/YYYY/09/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "January",
+			"asset-link": "site://President-WWWROOT/_cascade/base-assets/YYYY/10/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "January",
+			"asset-link": "site://President-WWWROOT/_cascade/base-assets/YYYY/11/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "January",
+			"asset-link": "site://President-WWWROOT/_cascade/base-assets/YYYY/12/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "January",
+			"asset-link": "site://President-WWWROOT/2017/01/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "All 2017 Updates",
+			"asset-link": "site://President-WWWROOT/2017/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "February",
+			"asset-link": "site://President-WWWROOT/2017/02/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "March",
+			"asset-link": "site://President-WWWROOT/2017/03/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "April",
+			"asset-link": "site://President-WWWROOT/2017/04/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "May",
+			"asset-link": "site://President-WWWROOT/2017/05/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "June",
+			"asset-link": "site://President-WWWROOT/2017/06/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "July",
+			"asset-link": "site://President-WWWROOT/2017/07/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "August",
+			"asset-link": "site://President-WWWROOT/2017/08/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "September",
+			"asset-link": "site://President-WWWROOT/2017/09/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "October",
+			"asset-link": "site://President-WWWROOT/2017/10/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "November",
+			"asset-link": "site://President-WWWROOT/2017/11/index"
+		}, {
+			"asset-name": "index",
+			"asset-title": "December",
+			"asset-link": "site://President-WWWROOT/2017/12/index"
+		}]
+	}, {
+		"contentType": "site://President-WWWROOT/BlogCategory",
+		"count": 5,
+		"pages": [{
+			"asset-name": "in-the-news",
+			"asset-title": "In The News",
+			"asset-link": "site://President-WWWROOT/categories/in-the-news"
+		}, {
+			"asset-name": "message-from-the-president",
+			"asset-title": "Message from the President",
+			"asset-link": "site://President-WWWROOT/categories/message-from-the-president"
+		}, {
+			"asset-name": "presentations",
+			"asset-title": "Presentations",
+			"asset-link": "site://President-WWWROOT/categories/presentations"
+		}, {
+			"asset-name": "publications",
+			"asset-title": "Publications",
+			"asset-link": "site://President-WWWROOT/categories/publications"
+		}, {
+			"asset-name": "thought-leadership",
+			"asset-title": "Thought Leadership",
+			"asset-link": "site://President-WWWROOT/categories/thought-leadership"
+		}]
+	}, {
+		"contentType": "site://President-WWWROOT/Generic RSS",
+		"count": 0,
+		"pages": []
+	}]
 }
