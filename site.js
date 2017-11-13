@@ -28,8 +28,10 @@ var searchInfo = {
     "searchTypes" : ["page"]
   }
 }
+var reportTmpl = "app/tmpl/report.tmpl";
 
-var bodybuffer = "<html><head><title>violation report</title></head><body>";
+var siteResults = [];
+
 winston.info("processing START");
 
 request.post(searchURL).send(searchInfo).set('accept', 'json')
@@ -42,17 +44,22 @@ request.post(searchURL).send(searchInfo).set('accept', 'json')
       winston.info("sitemaps found: " + matches.length, logOpts);
       if (matches.length > 0) {
         matches.map(function (sitemap) {
+          winston.info("sitemap: " + JSON.stringify(sitemap), logOpts);
           promise = promise.then(function() {
             return siteHandler(ws, sitemap);
-          }).then(function(siteResults) {
-              bodybuffer = bodybuffer + siteResults + '<hr/>';
+          }).then(function(results) {
+            siteResults.push({
+              "sitemap": sitemap,
+              "results": results
+            });
           });
         });
       }
     }
     return promise.then(function() {
-      bodybuffer = bodybuffer + '</body></html>';
-      fs.writeFileSync("app/site-reporter.html", bodybuffer);
+      var reportSrc = util.generateFromTemplate({"results": siteResults}, reportTmpl);
+      winston.info("processed: " + siteResults.length + " sites", logOpts);
+      fs.writeFileSync("app/site-reporter.html", reportSrc);
       winston.info("process COMPLETE", logOpts);
       process.exit(1);
     });
