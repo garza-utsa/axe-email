@@ -18,10 +18,15 @@ winston.level = 'info';
 
 var promise = Promise.resolve(null);
 var mode = "test";
-var test = nconf.get("test")
-var ws = nconf.get("ws")
-var searchURL = ws['ws_base_url'] + 'search?u=' + ws['username'] + '&p=' + ws['password'];
+var test = nconf.get("test");
+var ws = nconf.get("ws");
+var auth = 	{
+  'username': ws['username'],
+  'password': ws['password']
+};
+var searchURL = ws['ws_base_url'] + 'search';
 var searchInfo = {
+  "authentication" : auth,
   "searchInformation" : {
     "searchTerms" : "sitemap",
     "searchFields" : ["name"],
@@ -52,6 +57,9 @@ request.post(searchURL).send(searchInfo).set('accept', 'json')
               "sitemap": sitemap,
               "results": results
             });
+          }).catch(function(err) {
+            //silently ignore site errors
+            winston.info("skipping report for this sitemap", logOpts);
           });
         });
       }

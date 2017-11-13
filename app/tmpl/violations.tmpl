@@ -1,0 +1,6 @@
+<h3><a href="<%= url %>"><%= url %></a> - <%= count %> violations found</h3>
+<ol>
+  <% _.forEach(violations, function(v) { %>
+      <li><%= v %></li>
+  <% }); %>
+</ol>
