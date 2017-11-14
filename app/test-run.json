@@ -1,0 +1,35 @@
+{
+	"matches": [
+		{
+			"id": "6be47269817364bb0b24ab64878f121a",
+			"path": {
+				"path": "sitemap",
+				"siteId": "6be44ae0817364bb0b24ab64ec6b368c",
+				"siteName": "UTSA-WWWROOT"
+			},
+			"type": "page",
+			"recycled": false
+		},
+		{
+			"id": "97b4a18e817364bb51c27cfc68c3d85d",
+			"path": {
+				"path": "sitemap",
+				"siteId": "3dbe7975817364bb39671d55e967b2c7",
+				"siteName": "President-WWWROOT"
+			},
+			"type": "page",
+			"recycled": false
+		},
+		{
+			"id": "a6e11edf817364bb51c27cfc82a68afe",
+			"path": {
+				"path": "sitemap",
+				"siteId": "302d987e817364bb0173534f3b899a0d",
+				"siteName": "SEED-TEMPLATE"
+			},
+			"type": "page",
+			"recycled": false
+		}
+	],
+	"success": true
+}

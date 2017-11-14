@@ -17,8 +17,6 @@ winston.cli();
 winston.level = 'info';
 
 var promise = Promise.resolve(null);
-var mode = "test";
-var test = nconf.get("test");
 var ws = nconf.get("ws");
 var auth = 	{
   'username': ws['username'],

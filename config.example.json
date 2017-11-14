@@ -1,0 +1,7 @@
+{
+  "ws": {
+    "username" : "foo",
+    "password" : "bar",
+    "ws_base_url" : "https://walledev.it.utsa.edu/api/v1/"
+  }
+}

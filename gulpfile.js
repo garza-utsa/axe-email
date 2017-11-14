@@ -14,11 +14,12 @@ var src = {
 };
 
 gulp.task('email', function () {
-  return gulp.src('./app/report-simple.html')
+  return gulp.src('./app/site-reporter.html')
     .pipe(email({
-      subject: 'We are UTSA! - TESTING',
+      subject: 'We are UTSA! - Cascade AXE Report - WALLEDEV',
       to: [
-        'john.garza@utsa.edu'
+        'john.garza@utsa.edu',
+        'shashi.pinheiro@utsa.edu'
       ],
       from: 'WebTeam <webteam@utsa.edu>',
       smtp: smtpInfo

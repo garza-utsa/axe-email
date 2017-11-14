@@ -10,40 +10,48 @@
       <p><%= v.description.replace('<', '&lt;').replace('>', '&gt;') %></p>
     </td>
   </tr>
-  <tr><th>target</th><th>node</th><th>message</th></tr>
-
   <% _.forEach(v.nodes, function(node) { %>
     <tr>
     <% if (v.target) { %><%= v.target %><% } %>
       <td><% _.forEach(node.target, function (target) { %>
-          <%= target %> <br/>
+          <b><%= target %></b> <br/>
         <% }); %>
       </td>
 
-      <% _.forEach(node.any, function (a) { %>
-        <td>
-        <% if (a.relatedNodes.length > 0) { %>
-        <% _.forEach(a.relatedNodes, function (n) { %>
-          <span><%= n.target %></span>
-        <% }); %>
-        <% } %>
-        </td>
-        <td>
-          <%= a.id %> : <%= a.message %>
-        </td>
-      <% }); %>
+      <% if (node.any.length > 0) { %>
+      <td colspan="2">
+        <table>
+
+          <% _.forEach(node.any, function (a) { %>
+            <tr node="any">
+              <td>
+            <% if (a.relatedNodes.length > 0) { %>
+            <% _.forEach(a.relatedNodes, function (n) { %>
+              <b><%= n.target %></b><br/>
+            <% }); %>
+            <% } %>
+              </td>
+              <td>
+              <b><%= a.id %>:</b> <%= a.message %>
+              </td>
+            </tr>
+          <% }); %>
+        </table>
+      </td>
+      <% }; %>
+
 
       <% _.forEach(node.all, function (a) { %>
-        <td>
+      <td node="all">
         <% if (a.relatedNodes.length > 0) { %>
         <% _.forEach(a.relatedNodes, function (n) { %>
-          <span><%= n.target %></span>
+          <span><b><%= n.target %></b></span>
         <% }); %>
         <% } %>
-        </td>
-        <td>
-          <%= a.id %> : <%= a.message %>
-        </td>
+      </td>
+      <td>
+          <b><%= a.id %>:</b> <%= a.message %>
+      </td>
       <% }); %>
     </tr>
   <% }); %>
