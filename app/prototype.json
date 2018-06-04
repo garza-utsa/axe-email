@@ -1,0 +1,20 @@
+{
+	"urls": [
+		{
+			"name": "Home Page Redesign",
+			"title": "Mock Up Home Page",
+			"url": "http://haldev.utsa.edu/redesign/index.html"
+		},
+		{
+			"name": "First Gen Redesign",
+			"title": "Mock Up First Gen Page",
+			"url": "http://haldev.utsa.edu/redesign/firstgen/index.html"
+		},
+		{
+			"name": "Downtown Redesign",
+			"title": "Mock Up Downtown",
+			"url": "http://haldev.utsa.edu/redesign/downtown/index.html"
+		}
+	],
+	"success": true
+}
